@@ -45,3 +45,16 @@ webpage: https://github.com/tmux/tmux/wiki
 ```
 brew install tmux
 ```
+
+### Set Up Enviroment
+
+To set up enviroment, it is necessary to clone this repository in the folder .config of the system.
+
+```
+git clone https://github.com/jvilchesf/dotfiles.git ~/.config
+```
+
+It is also necessary to be aware of the .zshrc and .zshenv config.
+
+- .zshrc: Contains variable settings to run nvim, WezTerm, StarShip, syntax Highlight, autosuggestion, etc... 
+- .zsshenv: Contains enviromental variables for tmux to recognize Nord theme settings.
