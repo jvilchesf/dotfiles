@@ -21,4 +21,8 @@ require('lazy').setup({
 	require 'plugins.telescope',
     require 'plugins.lsp',
     require 'plugins.vim-tmux-navigator',
+    require 'plugins.ident-blankline', 
+    require 'plugins.gitsigns',
+    require 'plugins.alpha',
+    require 'plugins.autocompletition'
 })
