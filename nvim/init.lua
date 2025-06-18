@@ -1,5 +1,7 @@
-require 'core.options'
+equire 'core.options'
 require 'core.keymaps'
+
+
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
 	local lazyrepo = 'https://github.com/folke/lazy.nvim.git'
@@ -19,10 +21,13 @@ require('lazy').setup({
 	require 'plugins.lualine',
 	require 'plugins.treesitter',
 	require 'plugins.telescope',
-    require 'plugins.lsp',
-    require 'plugins.vim-tmux-navigator',
-    require 'plugins.ident-blankline', 
-    require 'plugins.gitsigns',
-    require 'plugins.alpha',
-    require 'plugins.autocompletition'
+	require 'plugins.lsp',
+	require 'plugins.vim-tmux-navigator',
+	require 'plugins.indent-blankline',
+	require 'plugins.gitsigns',
+	require 'plugins.alpha',
+	require 'plugins.autocompletition',
+    require 'plugins.dressing-nvim',
+    require 'plugins.rustaceanvim',
+    require 'plugins.debug',
 })

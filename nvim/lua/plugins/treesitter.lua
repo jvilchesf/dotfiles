@@ -25,7 +25,7 @@ return { -- Highlight, edit, and navigate code
             'yaml',
             'make',
             'cmake',
-            'rust', 
+            'rust',
             'markdown',
             'markdown_inline',
             'bash',
